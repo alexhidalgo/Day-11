@@ -1,0 +1,45 @@
+html {
+    font-family: "Digital";
+    font-size: 130px;
+}
+
+body {
+	text-align: center;
+	height: 1000px;
+
+}
+
+#clock {
+    color: red;
+    padding-top: 25%;
+}
+
+#hour-box {
+	height: 200px;
+	width: 10px;
+	background-color: black;
+	display: inline-block;
+	transform-origin: bottom;
+	position: relative;
+	left: 110px;
+
+}
+
+#minute-box {
+	height: 200px;
+	width: 10px;
+	background-color: black;
+	display: inline-block;
+	transform-origin: bottom;
+	position: relative;
+	left: 55px;
+}
+
+#second-box {
+	height: 200px;
+	width: 10px;
+	background-color: black;
+	display: inline-block;
+	transform-origin: bottom;
+	position: relative;
+}
